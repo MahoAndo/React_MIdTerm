@@ -102,7 +102,7 @@ function Blockchain() {
                 <thead>
                     <tr>
                         <th key={dataArray[0].toString()}>{dataArray[0]}</th>
-                        <div className={selectValue.img}></div>
+                        <div className={`icon_size ${selectValue.img}`}></div>
                     </tr>
                 </thead>
                 <tbody>
