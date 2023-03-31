@@ -12,7 +12,7 @@
 }
 
 .btc{
-    background-image: url(./assets/Image/btc-icon1.svg);
+    background-image: url(./assets/Image/btc-icon.png);
     height: 100px;
     width: 100px;
 }
@@ -24,7 +24,7 @@
 }
 
 .bch{
-    background-image: url(./assets/Image/bch-icon.svg);
+    background-image: url(./assets/Image/bch-icon.png);
     height: 100px;
     width: 100px;
 }
@@ -92,7 +92,7 @@
 }
 
 .atom{
-    background-image: url(./assets/Image/atom-icon.svg);
+    background-image: url(./assets/Image/atom-icon.png);
 }
 
 .xym{
@@ -104,7 +104,7 @@
 }
 
 .ada{
-    background-image: url(./assets/Image/ada-icon.svg);
+    background-image: url(./assets/Image/ada-icon.png);
     height: 100px;
     width: 100px;
 }
