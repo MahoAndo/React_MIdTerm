@@ -1,0 +1,134 @@
+.message{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.error{
+    background-image: url(./assets/Image/golang-icon.png);
+    height: 100px;
+    width: 100px;
+}
+
+.btc{
+    background-image: url(./assets/Image/btc-icon1.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.eth{
+    background-image: url(./assets/Image/eth-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.bch{
+    background-image: url(./assets/Image/bch-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.ltc{
+    background-image: url(./assets/Image/ltc-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.doge{
+    background-image: url(./assets/Image/doge-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.xrp{
+    background-image: url(./assets/Image/xrp-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.xem{
+    background-image: url(./assets/Image/xem-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.xlm{
+    background-image: url(./assets/Image/xlm-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.bat{
+    background-image: url(./assets/Image/bat-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.omg{
+    background-image: url(./assets/Image/omg-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.xtz{
+    background-image: url(./assets/Image/xtz-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.qtum{
+    background-image: url(./assets/Image/qtum-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.enj{
+    background-image: url(./assets/Image/enj-icon.svg);
+}
+
+.dot{
+    background-image: url(./assets/Image/dot-icon.svg);
+}
+
+.atom{
+    background-image: url(./assets/Image/atom-icon.svg);
+}
+
+.xym{
+    background-image: url(./assets/Image/xym-icon.png);
+}
+
+.mona{
+    background-image: url(./assets/Image/mona-icon.svg);
+}
+
+.ada{
+    background-image: url(./assets/Image/ada-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.mkr{
+    background-image: url(./assets/Image/mkr-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.dai{
+    background-image: url(./assets/Image/dai-icon.svg);
+    height: 100px;
+    width: 100px;
+}
+
+.link{
+    background-image: url(./assets/Image/link-icon.png);
+    height: 100px;
+    width: 100px;
+}
+
+.sol{
+    background-image: url(./assets/Image/sol-icon.png);
+    height: 100px;
+    width: 100px;
+}
