@@ -92,7 +92,7 @@ function Blockchain() {
         dataTable = (
             <div className='message'>
                 <h1>Select Symbol!</h1>
-                <p className="error"></p>
+                <p className="error icon_size"></p>
             </div>     
         );
     }else{
