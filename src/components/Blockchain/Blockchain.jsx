@@ -136,7 +136,9 @@ function Blockchain() {
         <Container>
             <div className='mt-5 inner-container'>
                 <Select options={options} value={selectValue} onChange={handleChange} />
-                <Button className='mt-3 button' onClick={fetchBlockchain}>Check</Button>
+                <div className='inner-container-button'>
+                    <Button className='mt-3 button' onClick={fetchBlockchain}>Check</Button>
+                </div>
             </div>
             <div className='mt-5'>
                 {dataTable}
