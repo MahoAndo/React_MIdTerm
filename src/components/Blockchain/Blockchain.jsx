@@ -91,7 +91,7 @@ function Blockchain() {
     if (checkFlg === false) {
         dataTable = (
             <div className='message'>
-                <h1>Select Symbol!</h1>
+                <h1>Select Symbol and Let's Check!</h1>
                 <p className="error icon_size"></p>
             </div>     
         );
