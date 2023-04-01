@@ -105,7 +105,7 @@ function Blockchain() {
                 <thead>
                     <tr>
                         <th style={{borderBlockWidth: 'inherit'}} key={dataArray[0].toString()}>{dataArray[0]}</th>
-                        <div className={`icon_size ${displayIcon}`}></div>
+                        <div className={`icon_size ${imageIcon}`}></div>
                     </tr>
                 </thead>
                 <tbody>
