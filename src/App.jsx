@@ -9,7 +9,7 @@ function App() {
         <div class="jumbotron jumbotron-fluid back-image">
             <div class="container text-white">
                 <h1>Check Crypto Assets</h1>
-                <p>Check out these popular crypto assets that fluctuate!</p>
+                <p>Check out popular crypto assets that fluctuate!</p>
             </div>
         </div>
         <div>
