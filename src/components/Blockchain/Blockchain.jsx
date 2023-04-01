@@ -20,7 +20,7 @@ const options = [
     { value: "XLM", label: "XLM", img: "xlm" },
     { value: "BAT", label: "BAT", img: "bat" },
     { value: "OMG", label: "OMG", img: "omg" },
-    { value: "XTZ", label: "XTZ", img: "xyz" },
+    { value: "XTZ", label: "XTZ", img: "xtz" },
     { value: "QTUM", label: "QTUM", img: "qtum" },
     { value: "ENJ", label: "ENJ", img: "enj" },
     { value: "DOT", label: "DOT", img: "dot" },
@@ -101,7 +101,7 @@ function Blockchain() {
             <Table>
                 <thead>
                     <tr>
-                        <th key={dataArray[0].toString()}>{dataArray[0]}</th>
+                        <th style={{borderBlockWidth: 'inherit'}} key={dataArray[0].toString()}>{dataArray[0]}</th>
                         <div className={`icon_size ${selectValue.img}`}></div>
                     </tr>
                 </thead>
@@ -134,11 +134,11 @@ function Blockchain() {
 
     return(
         <Container>
-            <div>
+            <div className='mt-5 inner-container'>
                 <Select options={options} value={selectValue} onChange={handleChange} />
-                <Button onClick={fetchBlockchain}>Check</Button>
+                <Button className='mt-3 button' onClick={fetchBlockchain}>Check</Button>
             </div>
-            <div>
+            <div className='mt-5'>
                 {dataTable}
             </div>
         </Container>

@@ -4,10 +4,30 @@
     align-items: center;
 }
 
+.inner-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    margin: 0 400px;
+}
+
+.border-block{
+    border-block-width: inherit;
+}
+
 .icon_size{
     height: 100px;
     width: 100px;
+    margin: 10px 0px
 }
+
+.back-image{
+    background-image: url(./assets/Image/back-image.avif);
+    background-size: contain;
+}
+
 .error{
     background-image: url(./assets/Image/golang-icon.png);
 }
@@ -17,7 +37,7 @@
 }
 
 .eth{
-    background-image: url(./assets/Image/eth-icon.svg);
+    background-image: url(./assets/Image/eth-icon.png);
 }
 
 .bch{
@@ -25,47 +45,47 @@
 }
 
 .ltc{
-    background-image: url(./assets/Image/ltc-icon.svg);
+    background-image: url(./assets/Image/ltc-icon.png);
 }
 
 .doge{
-    background-image: url(./assets/Image/doge-icon.svg);
+    background-image: url(./assets/Image/doge-icon.png);
 }
 
 .xrp{
-    background-image: url(./assets/Image/xrp-icon.svg);
+    background-image: url(./assets/Image/xrp-icon.png);
 }
 
 .xem{
-    background-image: url(./assets/Image/xem-icon.svg);
+    background-image: url(./assets/Image/xem-icon.png);
 }
 
 .xlm{
-    background-image: url(./assets/Image/xlm-icon.svg);
+    background-image: url(./assets/Image/xlm-icon.png);
 }
 
 .bat{
-    background-image: url(./assets/Image/bat-icon.svg);
+    background-image: url(./assets/Image/bat-icon.png);
 }
 
 .omg{
-    background-image: url(./assets/Image/omg-icon.svg);
+    background-image: url(./assets/Image/omg-icon.png);
 }
 
 .xtz{
-    background-image: url(./assets/Image/xtz-icon.svg);
+    background-image: url(./assets/Image/xtz-icon.png);
 }
 
 .qtum{
-    background-image: url(./assets/Image/qtum-icon.svg);
+    background-image: url(./assets/Image/qtum-icon.png);
 }
 
 .enj{
-    background-image: url(./assets/Image/enj-icon.svg);
+    background-image: url(./assets/Image/enj-icon.png);
 }
 
 .dot{
-    background-image: url(./assets/Image/dot-icon.svg);
+    background-image: url(./assets/Image/dot-icon.png);
 }
 
 .atom{
@@ -77,7 +97,7 @@
 }
 
 .mona{
-    background-image: url(./assets/Image/mona-icon.svg);
+    background-image: url(./assets/Image/mona-icon.png);
 }
 
 .ada{
@@ -85,11 +105,11 @@
 }
 
 .mkr{
-    background-image: url(./assets/Image/mkr-icon.svg);
+    background-image: url(./assets/Image/mkr-icon.png);
 }
 
 .dai{
-    background-image: url(./assets/Image/dai-icon.svg);
+    background-image: url(./assets/Image/dai-icon.png);
 }
 
 .link{

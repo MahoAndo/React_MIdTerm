@@ -6,10 +6,10 @@ import { Container } from "reactstrap"
 function App() {
   return (
     <div className="App">
-        <div class="jumbotron jumbotron-fluid bg-dark">
+        <div class="jumbotron jumbotron-fluid back-image">
             <div class="container text-white">
-                <h1>Jumbotron</h1>
-                <p>Jumbotronのサンプルです</p>
+                <h1>Check Crypto Assets</h1>
+                <p>Check out these popular crypto assets that fluctuate!</p>
             </div>
         </div>
         <div>
