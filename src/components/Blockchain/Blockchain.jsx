@@ -9,7 +9,7 @@ import {
 
 //select options
 const options = [
-    { value: "0", label: "Select Symbol"},
+    { value: "0", label: "Select Symbol", img: ""},
     { value: "BTC", label: "BTC", img: "btc" },
     { value: "ETH", label: "ETH", img: "eth" },
     { value: "BCH", label: "BCH", img: "bch" },
@@ -38,8 +38,9 @@ function Blockchain() {
     const [selectValue, setSelectValue] = useState(options[0]); //select options
     const [dataArray, setDataArray] = useState([]);             //set data from api
     const [checkFlg, setCheckFlg] = useState(false);            //check flg
-    const [displayIcon, setSisplayIcon] = useState("");         //display imageIcon
+    //const [displayIcon, setSisplayIcon] = useState("");         //display imageIcon
     const symbol = selectValue.value;                           //selected symbol
+    const imageIcon = selectValue.img;                          //selected symbol
     let dataTable;                                              // for display
 
     //-----------------------------------------------------
@@ -80,7 +81,7 @@ function Blockchain() {
                         info.IMAGEURL       //image url
                     ]);
                     setCheckFlg(true);
-                    setSisplayIcon(selectValue.img);
+                    //setSisplayIcon(imageIcon);
                 });
         }else{
             setCheckFlg(false);
