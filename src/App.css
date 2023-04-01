@@ -9,6 +9,12 @@
     flex-direction: column;
 }
 
+.inner-container-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .button{
     margin: 0 400px;
 }
