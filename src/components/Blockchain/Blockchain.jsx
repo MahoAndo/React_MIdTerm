@@ -37,7 +37,8 @@ const options = [
 function Blockchain() {
     const [selectValue, setSelectValue] = useState(options[0]); //select options
     const [dataArray, setDataArray] = useState([]);             //set data from api
-    const [checkFlg, setCheckFlg] = useState(false);            //check flg 
+    const [checkFlg, setCheckFlg] = useState(false);            //check flg
+    const [displayIcon, setSisplayIcon] = useState("");         //display imageIcon
     const symbol = selectValue.value;                           //selected symbol
     let dataTable;                                              // for display
 
@@ -79,6 +80,7 @@ function Blockchain() {
                         info.IMAGEURL       //image url
                     ]);
                     setCheckFlg(true);
+                    setSisplayIcon(selectValue.img);
                 });
         }else{
             setCheckFlg(false);
@@ -102,7 +104,7 @@ function Blockchain() {
                 <thead>
                     <tr>
                         <th style={{borderBlockWidth: 'inherit'}} key={dataArray[0].toString()}>{dataArray[0]}</th>
-                        <div className={`icon_size ${selectValue.img}`}></div>
+                        <div className={`icon_size ${displayIcon}`}></div>
                     </tr>
                 </thead>
                 <tbody>
